@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <HStack justifyContent='space-between' padding='10px' >
         <Image  borderRadius={10} overflow='hidden' src={logo} boxSize='60px'/>
-        <Heading >Elvis Jiang Homepage</Heading>
+        <Heading bgPosition={screenLeft}>Elvis Jiang Personal Works</Heading>
         <ColorModeSwitch />
     </HStack>
   )
