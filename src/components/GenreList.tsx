@@ -11,13 +11,17 @@ interface Props {
 const GenreList = ({onSelectedGenre}: Props) => {
     const {data, isLoading,error } = useGenres();
 
+  console.log("*****", data)
+
     if(error) return null
 
     if(isLoading) return <Spinner />
 
   return (
     <List>
-        {data.map(genres => (
+        {
+        data.map(genres => (
+          
             <ListItem key={genres.id} paddingY='5px'>
                 <HStack>
                     <Image boxSize='32px' borderRadius={8} src={getCroppedImageUrl(genres.image_background) } />

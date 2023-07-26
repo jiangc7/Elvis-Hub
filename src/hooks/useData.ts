@@ -15,15 +15,19 @@ const useData = <T>(endpoint: string, requestConfig?: AxiosRequestConfig, deps?:
     const [isLoading, setLoading] = useState(false);
 
     useEffect(() => {
+        console.log("fdhsajlklfhdskafds****************************");
+
         const controller = new AbortController();
 
         setLoading(true);
         apiClient.get<FetchResponse<T>>(endpoint, { signal: controller.signal, ...requestConfig})
             .then(res => {
+                console.log("===", res.data);
                 setData(res.data.results);
                 setLoading(false);
             })
             .catch(err => {
+                console.log("---", err)
                 if (err instanceof CanceledError) return;
                 setError(err.message)
                 setLoading(false);

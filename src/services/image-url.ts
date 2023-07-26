@@ -1,8 +1,10 @@
 
 const getCroppedImageUrl = (url: string) => {
-    const target = 'media/';
-    const index = url.indexOf(target) + target.length;
-    return url.slice(0, index) + 'crop/600/400/' + url.slice(index)
+    // const target = '8000';
+    // // const index = url.indexOf(target) + target.length;
+    // const index = url.indexOf(target)
+    console.log(url + "$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+    return '/src/assets/' + url
 }
 
 export default getCroppedImageUrl;
