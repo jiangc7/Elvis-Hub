@@ -4,7 +4,7 @@ const getCroppedImageUrl = (url: string) => {
     // // const index = url.indexOf(target) + target.length;
     // const index = url.indexOf(target)
     console.log(url + "$$$$$$$$$$$$$$$$$$$$$$$$$$$");
-    return '/src/assets/' + url
+    return '/' + url
 }
 
 export default getCroppedImageUrl;
