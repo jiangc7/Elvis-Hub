@@ -18,8 +18,8 @@ const GameCard = ({ game }: Props) => {
         </video> */}
         {/* <iframe width="230" height="130" src="https://www.youtube.com/embed/brp1usbA4_4" frameBorder="0" allowFullScreen></iframe> */}
         <iframe
-        width="230" // 视频宽度
-        height="130" // 视频高度
+        width= "100%" // 视频宽度
+        height="100%" // 视频高度
         src={`https://www.youtube.com/embed/brp1usbA4_4`}
         title="YouTube video player"
         frameBorder="0"
