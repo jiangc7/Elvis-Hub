@@ -20,8 +20,8 @@ const GameCard = ({ game }: Props) => {
         <iframe
         width= "100%" // 视频宽度
         height="100%" // 视频高度
-        src={`https://www.youtube.com/embed/brp1usbA4_4`}
-        title="YouTube video player"
+        src={game.videolink}
+        title="Elvis work collection"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
