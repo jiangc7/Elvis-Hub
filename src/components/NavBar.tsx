@@ -6,7 +6,9 @@ import ColorModeSwitch from './ColorModeSwitch'
 const NavBar = () => {
   return (
     <HStack justifyContent='space-between' padding='10px' >
+        <a href="/index.html">
         <Image  borderRadius={10} overflow='hidden' src={logo} boxSize='60px'/>
+        </a>
         <Heading bgPosition={screenLeft}>Elvis Jiang Personal Works</Heading>
         <ColorModeSwitch />
     </HStack>
