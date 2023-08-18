@@ -5,7 +5,7 @@
 ## Contents  
 
 - This is the frond end side project
-- would retrieve data from backend fastAPI www.elvisjiang/api
+- would retrieve data from backend fastAPI www.elvisjiang/api/docs
 - made by react and typescript
 - Thanks
 
