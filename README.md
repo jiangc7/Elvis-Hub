@@ -1,6 +1,7 @@
 # Elvis-Hub
 
 # Personal website for Elvis 
+![image](https://github.com/jiangc7/Elvis-Hub/assets/118397495/3cef3565-ef13-4d0a-b609-8d8afaa971b4)
 
 ## Contents  
 
